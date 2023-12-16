@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .container {
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    border: 1px solid #333;
+    height: 600px;
+    width: 400px;
+    margin: 10px auto 0;
+  }
+  
+  .form {
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: 3px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  #userdataform {
+    width: 380px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #userdataform input {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 10px;
+  }
+  
+  #userdataform button {
+    min-width: 30%;
+    padding: 7px;
+    box-sizing: border-box;
+  }
+  
+  #sendform {
+    width: 400px;
+    font-size: 0;
+  }
+  
+  #sendform input {
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    padding: 10px 7px;
+    width: 75%;
+  }
+  
+  #sendform button {
+    box-sizing: border-box;
+    width: 25%;
+    background-color: #27d49a;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  #sendform button:hover {
+    cursor: pointer;
+    background-color: #1fa97b;
+  }
