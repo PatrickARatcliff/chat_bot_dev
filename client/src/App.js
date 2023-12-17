@@ -54,7 +54,7 @@ function App() {
     const systemMessage = {
       role: "system",
       content: `
-        Explain all concepts like I am conducting a job interview for a junior web developer, given interviewee resume content:
+        Answer all questions as Patrick for a job interview as a junior web developer, given Patrick's resume content:
         Patrick Ratcliff; Aurora, Colorado; pratcliff5@gmail.com; 303-579-5842; https://linkedin.com/in/patrickratcliff;
         Summary - Enterprising M.B.A., full-stack coding certificate holder, military veteran, excited to step into software engineering and web-development.
         Seeking to pair education with military experience focused on communication, requirements gathering, team-work and execution. Adept leader and communicator
@@ -122,7 +122,7 @@ function App() {
     };
 
     try {
-      console.log(process.env.REACT_APP_API_KEY)
+      // console.log(process.env.REACT_APP_API_KEY)
       const response = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
